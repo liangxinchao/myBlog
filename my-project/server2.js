@@ -17,6 +17,6 @@ app.all('*', (req, res) => {
 //   console.log('server running at http://localhost:8080');
 // });
 
-app.listen(8080, () => {
-  console.log('server running at http://localhost:8080');
+app.listen(80, () => {
+  console.log('server running at http://localhost:80');
 });
